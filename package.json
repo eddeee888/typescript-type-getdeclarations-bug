@@ -1,0 +1,12 @@
+{
+  "name": "typescript-type-getdeclarations-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "test-error": "SOURCE=./src/source-error.ts node --experimental-strip-types src/main.ts",
+    "test-ok": "SOURCE=./src/source-ok.ts node --experimental-strip-types src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.17",
+    "typescript": "5.8.3"
+  }
+}
